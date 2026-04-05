@@ -1,3 +1,5 @@
+package usuarios;
+
 public class EncargadoCatalogo extends Usuario {
     public EncargadoCatalogo(String nombre, String username, String password) {
         super(nombre, username, password);

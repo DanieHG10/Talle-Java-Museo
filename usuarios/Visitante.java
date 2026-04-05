@@ -1,3 +1,5 @@
+package usuarios;
+
 public class Visitante extends Usuario {
     public Visitante(String nombre, String username, String password) {
         super(nombre, username, password);

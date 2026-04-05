@@ -1,3 +1,5 @@
+package usuarios;
+
 public class Director extends Usuario {
     public Director(String nombre, String username, String password) {
         super(nombre, username, password);

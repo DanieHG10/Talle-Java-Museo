@@ -1,3 +1,8 @@
+package obras;
+
+import enums.EstadoObra;
+import interfaces.ICedible;
+import interfaces.IRestaurable;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;

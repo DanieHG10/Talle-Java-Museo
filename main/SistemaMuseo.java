@@ -1,9 +1,14 @@
+package main;
+
+import enums.*;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import obras.*;
+import usuarios.*;
 
 public class SistemaMuseo {
     
@@ -22,10 +27,10 @@ public class SistemaMuseo {
         usuarios = new ArrayList<>();
         scanner = new Scanner(System.in);
         
-        cargarDatos();
+        cargarDatosPrueba();
     }
 
-    private void cargarDatos() {
+    private void cargarDatosPrueba() {
         usuarios.add(new EncargadoCatalogo("Juan", "catalogo", "123"));
         usuarios.add(new RestauradorJefe("Maria", "restaurador", "123"));
         usuarios.add(new Director("Carlos", "director", "123"));
@@ -36,7 +41,9 @@ public class SistemaMuseo {
     }
 
     public void iniciar() {
+        System.out.println("=========================================");
         System.out.println(" SISTEMA DE GESTIÓN DE OBRAS DE ARTE ");
+        System.out.println("=========================================");
         
         while (true) {
             System.out.println("\n1. Iniciar Sesión");

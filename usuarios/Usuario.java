@@ -1,3 +1,5 @@
+package usuarios;
+
 public abstract class Usuario {
     protected String nombre;
     protected String username;

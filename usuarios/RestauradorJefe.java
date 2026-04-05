@@ -1,3 +1,5 @@
+package usuarios;
+
 public class RestauradorJefe extends Usuario {
     public RestauradorJefe(String nombre, String username, String password) {
         super(nombre, username, password);

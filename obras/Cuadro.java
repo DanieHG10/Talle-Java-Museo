@@ -1,3 +1,5 @@
+package obras;
+
 import java.time.LocalDate;
 
 public class Cuadro extends ObraDeArte {
