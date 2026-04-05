@@ -1,4 +1,3 @@
-package main;
 
 import enums.*;
 import java.time.LocalDate;
@@ -302,7 +301,7 @@ public class SistemaMuseo {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {    
         SistemaMuseo sistema = new SistemaMuseo();
         sistema.iniciar();
     }

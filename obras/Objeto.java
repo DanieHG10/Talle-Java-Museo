@@ -14,4 +14,14 @@ public class Objeto extends ObraDeArte {
     public String obtenerInfoEspecifica() {
         return "Tipo: OTRO OBJETO\nDescripción: " + descripcion;
     }
+
+    @Override
+    public boolean puedeSerCedida1() {
+        throw new UnsupportedOperationException("Unimplemented method 'puedeSerCedida1'");
+    }
+
+    @Override
+    public boolean puedeSerCedida11() {
+        throw new UnsupportedOperationException("Unimplemented method 'puedeSerCedida11'");
+    }
 }
